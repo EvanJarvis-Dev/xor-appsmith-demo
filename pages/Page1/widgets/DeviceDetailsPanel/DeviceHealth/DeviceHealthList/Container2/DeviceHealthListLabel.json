@@ -1,8 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 270,
+  "bottomRow": 4,
+  "boxShadow": "none",
   "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
     {
       "key": "truncateButtonColor"
     },
@@ -16,7 +20,7 @@
       "key": "text"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
@@ -28,28 +32,25 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 221,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 217,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 270,
-  "originalTopRow": 221,
   "overflow": "NONE",
-  "parentColumnSpace": 6.390625,
-  "parentId": "0",
-  "parentRowSpace": 10,
+  "parentId": "8v4ssrp0e4",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 28,
   "shouldTruncate": false,
-  "text": "{{DevicesTable.selectedRow.status}}",
+  "text": "{{currentItem.label}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 221,
+  "textStyle": "HEADING",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "puho59fwuo",
-  "widgetName": "Text1"
+  "widgetId": "rt1f6q7g7b",
+  "widgetName": "DeviceHealthListLabel"
 }
