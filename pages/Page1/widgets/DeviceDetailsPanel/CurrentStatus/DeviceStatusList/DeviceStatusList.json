@@ -1,0 +1,127 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 370,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dropDisabled": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "pymopdfq21",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 400,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 60.87890625,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "0ryet8dcyy",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 60.87890625,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "3lu8b2v9jm",
+      "widgetName": "Canvas13"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "listData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "flexVerticalAlignment": "start",
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": 8,
+  "key": "53kv1nq8m9",
+  "leftColumn": 0,
+  "listData": "{{\n[\n    {\n        label: \"Last Seen\",\n        value: moment(DevicesTable.selectedRow.status?.last_seen).format(\"DD/MM/YYYY HH:mm\")\n    },\n\t\t{\n        label: \"Last Sample\",\n        value: moment(DevicesTable.selectedRow.status?.last_sample).format(\"DD/MM/YYYY HH:mm\")\n    },\n\t\t{\n        label: \"Last Status\",\n        value: moment(DevicesTable.selectedRow.status?.last_status).format(\"DD/MM/YYYY HH:mm\")\n    },\n\t\t{\n        label: \"Voltage (V)\",\n        value: DevicesTable.selectedRow.status?.voltage\n    },  \n]\n}}",
+  "mainCanvasId": "3lu8b2v9jm",
+  "mainContainerId": "e8xnf2uwrv",
+  "minWidth": 450,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "originalBottomRow": 47,
+  "originalTopRow": 10,
+  "pageSize": 5,
+  "parentColumnSpace": 2.53662109375,
+  "parentId": "pqgfmgz63f",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{DeviceStatusList.listData.map((currentItem, currentIndex) => currentItem[\"label\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "selectedItemView": "{{{}}}",
+  "templateHeight": 160,
+  "topRow": 10,
+  "triggeredItemView": "{{{}}}",
+  "type": "LIST_WIDGET_V2",
+  "widgetId": "0ryet8dcyy",
+  "widgetName": "DeviceStatusList"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6a3a8d81915be2438a04fafd_fdcc5f84-22fa-403c-9b0d-daabe01b855c",
+  "id": "Page1_GetStatusCounts",
+  "unpublishedCollection": {
+    "name": "GetStatusCounts",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
