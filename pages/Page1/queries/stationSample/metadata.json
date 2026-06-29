@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6a3a8d81915be2438a04fafd_e2335b97-9876-4e5c-b7ba-1ef700f704e0",
-  "id": "Page1_Api1",
+  "gitSyncId": "6a3a8d81915be2438a04fafd_6eef7be7-6629-44bb-94cb-e756ff6fe76a",
+  "id": "Page1_stationSample",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,13 +16,18 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/",
+      "path": "/station/{{DevicesTable.selectedRow.id}}/samples",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "default_timerange",
+          "value": "period"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -32,10 +37,14 @@
       "name": "LiveAPI",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
-    "name": "Api1",
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
+    "name": "stationSample",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
