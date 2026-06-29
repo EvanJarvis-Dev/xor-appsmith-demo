@@ -7,7 +7,7 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "ccpebc4joo": {
-      "data": "{{\nstationSample.data.data.map(sample => ({\n    x: sample.sample_timestamp,\n    y: Number(sample.lp)\n}))\n}}",
+      "data": "{{\nstationSample.data.data.map(sample => ({\n    x: sample.sample_timestamp,\n    y: Number(sample.leq)\n}))\n}}",
       "seriesName": ""
     }
   },
