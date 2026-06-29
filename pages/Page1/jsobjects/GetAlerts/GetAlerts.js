@@ -5,6 +5,8 @@ export default {
         const alerts = [];
 
         const status = device.status;
+			
+					
 
         if (status.online_status === "offline") {
             alerts.push({
@@ -36,6 +38,14 @@ export default {
                     `${status.exceedances_total} historical exceedances`
             });
         }
+			
+				if (alerts.length == 0) {
+						alerts.push({
+                severity: "info",
+                message:
+                    `No Active Alerts`
+            });
+				}
 
         return alerts;
     }
