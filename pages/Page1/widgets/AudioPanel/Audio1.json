@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "autoPlay": false,
-  "bottomRow": 6,
+  "bottomRow": 8,
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
