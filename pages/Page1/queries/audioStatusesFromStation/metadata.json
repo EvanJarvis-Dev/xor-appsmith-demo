@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6a3a8d81915be2438a04fafd_75095817-24a3-4f0d-b436-5ac812bb0251",
-  "id": "Page1_Api1",
+  "id": "Page1_audioStatusesFromStation",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/stations_by_site_js/{{SiteTable.selectedRow.site_id}}",
+      "path": "/station/{{DevicesTable.selectedRow.id}}/audio",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -24,16 +24,8 @@
       ],
       "queryParameters": [
         {
-          "key": "stations[]",
-          "value": "0"
-        },
-        {
-          "key": "expand[]",
-          "value": "site"
-        },
-        {
-          "key": "expand[]",
-          "value": "sites"
+          "key": "default_timerange",
+          "value": "last_period"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -50,9 +42,9 @@
         "key": "path"
       }
     ],
-    "name": "Api1",
+    "name": "audioStatusesFromStation",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
