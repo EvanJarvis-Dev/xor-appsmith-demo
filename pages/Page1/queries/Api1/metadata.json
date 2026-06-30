@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "stations_by_site_js/{{SiteTable.selectedRow.site_id}}",
+      "path": "/stations_by_site_js/{{SiteTable.selectedRow.site_id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true

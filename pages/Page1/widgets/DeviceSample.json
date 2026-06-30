@@ -7,7 +7,7 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "ccpebc4joo": {
-      "data": "{{\nstationSample.data.data.map(sample => ({\n    x: sample.sample_timestamp,\n    y: Number(sample.leq)\n}))\n}}",
+      "data": "",
       "seriesName": ""
     }
   },
@@ -76,9 +76,6 @@
     },
     {
       "key": "fontFamily"
-    },
-    {
-      "key": "chartData.ccpebc4joo.data"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -95,8 +92,8 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 51,
   "needsErrorInfo": true,
-  "originalBottomRow": 280,
-  "originalTopRow": 248,
+  "originalBottomRow": 234,
+  "originalTopRow": 202,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{\nSiteTable.selectedRow?.site_id\n    ? `Device Status Overview at Site ${SiteTable.selectedRow.site_id}`\n    : \"Device Status Overview\"\n}}",
+  "text": "{{\nSiteTable.selectedRow?.site_id\n    ? `Device Status Overview at Site ${SiteTable.selectedRow.site_name}`\n    : \"Device Status Overview\"\n}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 0,

@@ -26,6 +26,18 @@
         {
           "key": "expand[]",
           "value": "status"
+        },
+        {
+          "key": "expand[]",
+          "value": "site"
+        },
+        {
+          "key": "expand[]",
+          "value": "project"
+        },
+        {
+          "key": "expand[]",
+          "value": "coordinates"
         }
       ],
       "timeoutInMillisecond": 100000
