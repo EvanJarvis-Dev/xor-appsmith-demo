@@ -2,11 +2,7 @@
   "animateLoading": true,
   "autoPlay": false,
   "bottomRow": 6,
-  "dynamicBindingPathList": [
-    {
-      "key": "url"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
   "isVisible": true,
@@ -26,7 +22,7 @@
   "rightColumn": 64,
   "topRow": 0,
   "type": "AUDIO_WIDGET",
-  "url": "{{audio}}",
+  "url": "https://livenviro-staging.net/api/audio?audioId=963578",
   "version": 1,
   "widgetId": "yrtnfcgodt",
   "widgetName": "Audio1"
