@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "{{\nStationTable.selectedRow.status?.online_status === \"online\"\n    ? \"green\"\n    : StationTable.selectedRow.status?.online_status === \"offline\"\n    ? \"red\"\n    : StationTable.selectedRow.status?.online_status === \"buffering\"\n    ? \"#FF9800\"\n    : \"#9E9E9E\"\n}}",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 239,
+  "bottomRow": 10,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 500,
+      "bottomRow": 100,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -26,7 +26,7 @@
       "flexLayers": [],
       "isLoading": false,
       "isVisible": true,
-      "key": "1ghr3intva",
+      "key": "dy2jpskvp0",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -34,20 +34,20 @@
       "minWidth": 450,
       "mobileBottomRow": 100,
       "mobileLeftColumn": 0,
-      "mobileRightColumn": 486,
+      "mobileRightColumn": 51.76171875,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "9he8djppdl",
+      "parentId": "ukdexhfon0",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
-      "rightColumn": 486,
+      "rightColumn": 51.76171875,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "zsve5eoyp0",
-      "widgetName": "Canvas19"
+      "widgetId": "5cfghqdl7w",
+      "widgetName": "Canvas12"
     }
   ],
   "containerStyle": "card",
@@ -57,35 +57,44 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
-  "key": "kmc258neu9",
+  "key": "q5prhxa5l0",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "mobileBottomRow": 179,
-  "mobileLeftColumn": 18,
-  "mobileRightColumn": 42,
-  "mobileTopRow": 169,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 276,
-  "originalTopRow": 189,
-  "parentColumnSpace": 20.25,
-  "parentId": "0",
+  "originalBottomRow": 10,
+  "originalTopRow": 0,
+  "parentColumnSpace": 2.15673828125,
+  "parentId": "pqgfmgz63f",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 189,
+  "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "9he8djppdl",
-  "widgetName": "AudioPanel"
+  "widgetId": "ukdexhfon0",
+  "widgetName": "CurrentStatusContainer"
 }

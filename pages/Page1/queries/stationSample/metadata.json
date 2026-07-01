@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/station/{{DevicesTable.selectedRow.id}}/samples",
+      "path": "/station/{{StationTable.selectedRow.id}}/samples",
       "pluginSpecifiedTemplates": [
         {
           "value": true
