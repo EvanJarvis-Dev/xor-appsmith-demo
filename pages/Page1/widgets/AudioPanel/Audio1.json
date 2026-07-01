@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "autoPlay": false,
-  "bottomRow": 8,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "url"
@@ -23,7 +23,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "topRow": 0,
   "type": "AUDIO_WIDGET",
   "url": "{{\n`http://127.0.0.1:8000/audio_seekable/${AudioTable.selectedRow.id}.mpeg`\n}}",

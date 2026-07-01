@@ -52,7 +52,7 @@
     ],
     "name": "stationSample",
     "pageId": "Page1",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

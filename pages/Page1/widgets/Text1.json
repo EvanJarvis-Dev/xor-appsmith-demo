@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 343,
+  "bottomRow": 309,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 217,
   "needsErrorInfo": false,
-  "originalBottomRow": 343,
-  "originalTopRow": 339,
+  "originalBottomRow": 309,
+  "originalTopRow": 305,
   "overflow": "NONE",
   "parentColumnSpace": 6.390625,
   "parentId": "0",
@@ -46,7 +46,7 @@
   "text": "{{\n`http://127.0.0.1:8000/audio/${AudioTable.selectedRow.id}`\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 339,
+  "topRow": 305,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
