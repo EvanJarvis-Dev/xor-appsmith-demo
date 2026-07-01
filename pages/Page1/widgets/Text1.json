@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -30,8 +33,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 217,
   "needsErrorInfo": false,
-  "originalBottomRow": 346,
-  "originalTopRow": 342,
+  "originalBottomRow": 343,
+  "originalTopRow": 339,
   "overflow": "NONE",
   "parentColumnSpace": 6.390625,
   "parentId": "0",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{\n`http://127.0.0.1:8000/audio/${AudioTable.selectedRow.id}`\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 339,

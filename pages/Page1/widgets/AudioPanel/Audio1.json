@@ -2,11 +2,7 @@
   "animateLoading": true,
   "autoPlay": false,
   "bottomRow": 8,
-  "dynamicBindingPathList": [
-    {
-      "key": "url"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "isLoading": false,
   "isVisible": true,
@@ -26,7 +22,7 @@
   "rightColumn": 64,
   "topRow": 0,
   "type": "AUDIO_WIDGET",
-  "url": "http://127.0.0.1:8000/audio/{{AudioTable.selectedRow.id}}",
+  "url": "http://127.0.0.1:8000/audio/$3174351",
   "version": 1,
   "widgetId": "yrtnfcgodt",
   "widgetName": "Audio1"
