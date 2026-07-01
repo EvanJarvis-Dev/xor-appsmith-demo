@@ -4,21 +4,19 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 121,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": [
-    {
-      "lat": 40.7128,
-      "long": -74.006,
-      "title": "New York"
-    }
-  ],
+  "defaultMarkers": "[\n  {\n    \"lat\": {{DevicesTable.selectedRow.coordinates?.latitude}},\n    \"long\": {{DevicesTable.selectedRow.coordinates?.longitude}},\n    \"title\": {{DevicesTable.selectedRow.title}}\n  }\n]",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "defaultMarkers"
     }
   ],
+  "dynamicTriggerPathList": [],
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,
@@ -39,6 +37,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 81,
   "needsErrorInfo": false,
+  "originalBottomRow": 121,
+  "originalTopRow": 81,
   "parentColumnSpace": 19.9375,
   "parentId": "ia74frwmbh",
   "parentRowSpace": 10,
