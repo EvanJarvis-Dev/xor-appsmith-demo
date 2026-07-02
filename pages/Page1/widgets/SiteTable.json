@@ -433,7 +433,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 43,
+  "rightColumn": 42,
   "searchKey": "",
   "tableData": "{{GetSiteSummary.getSiteSummary.data}}",
   "textColor": "",
