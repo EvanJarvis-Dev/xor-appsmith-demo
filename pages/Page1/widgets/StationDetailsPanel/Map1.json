@@ -2,7 +2,7 @@
   "allowZoom": true,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 55,
+  "bottomRow": 56,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultMarkers": "[\n  {\n    \"lat\": {{StationTable.selectedRow.coordinates?.latitude}},\n    \"long\": {{StationTable.selectedRow.coordinates?.longitude}},\n    \"title\": {{StationTable.selectedRow.title}}\n  }\n]",
   "dynamicBindingPathList": [
