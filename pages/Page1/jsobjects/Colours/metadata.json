@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6a3a8d81915be2438a04fafd_ffbe2dad-ffc5-4c00-90fc-435c299b2aad",
+  "id": "Page1_Colours",
+  "unpublishedCollection": {
+    "name": "Colours",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "colours",
+        "value": "{\n  background: \"#FDFDFE\",\n  surface: \"#E9ECF3\",\n  border: \"#DAD1D2\",\n  muted: \"#A2B1BA\",\n  success: \"#4BC58F\",\n  warning: \"#F78555\",\n  text: \"#2F3A40\",\n  textSecondary: \"#A2B1BA\"\n}"
+      }
+    ]
+  }
+}

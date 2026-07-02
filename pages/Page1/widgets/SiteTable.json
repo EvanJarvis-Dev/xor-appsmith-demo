@@ -1,13 +1,14 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderColor": "#E0DEDE",
+  "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 44,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "bottomRow": 45,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "cachedTableData": {},
   "canFreezeColumn": true,
+  "cellBackground": "{{Colours.colours.surface}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -60,9 +61,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "boxShadow"
-    },
-    {
       "key": "tableData"
     },
     {
@@ -91,17 +89,92 @@
     },
     {
       "key": "primaryColumns.longitude.computedValue"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "primaryColumns.site_id.textColor"
+    },
+    {
+      "key": "primaryColumns.station_count.textColor"
+    },
+    {
+      "key": "primaryColumns.offline.textColor"
+    },
+    {
+      "key": "primaryColumns.online.textColor"
+    },
+    {
+      "key": "primaryColumns.site_name.textColor"
+    },
+    {
+      "key": "primaryColumns.project.textColor"
+    },
+    {
+      "key": "primaryColumns.description.textColor"
+    },
+    {
+      "key": "primaryColumns.latitude.textColor"
+    },
+    {
+      "key": "primaryColumns.longitude.textColor"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.site_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.station_count.cellBackground"
+    },
+    {
+      "key": "primaryColumns.offline.cellBackground"
+    },
+    {
+      "key": "primaryColumns.online.cellBackground"
+    },
+    {
+      "key": "primaryColumns.site_name.cellBackground"
+    },
+    {
+      "key": "primaryColumns.project.cellBackground"
+    },
+    {
+      "key": "primaryColumns.description.cellBackground"
+    },
+    {
+      "key": "primaryColumns.latitude.cellBackground"
+    },
+    {
+      "key": "primaryColumns.longitude.cellBackground"
+    },
+    {
+      "key": "headerRowColor"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "textColor"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "headerRowColor"
     }
   ],
   "dynamicTriggerPathList": [],
   "enableClientSideSearch": true,
   "endOfData": false,
+  "evenRowColor": "",
   "flexVerticalAlignment": "start",
+  "headerRowColor": "{{ Colours.colours.muted }}",
+  "headerTextColor": "#ffffffff",
   "horizontalAlignment": "LEFT",
   "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
@@ -120,6 +193,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 54,
   "needsErrorInfo": false,
+  "oddRowColor": "",
   "originalBottomRow": 82,
   "originalTopRow": 54,
   "parentColumnSpace": 5.984375,
@@ -130,7 +204,7 @@
       "alias": "description",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "html",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"description\"])) : description })()}}",
       "currencyCode": "USD",
@@ -153,7 +227,7 @@
       "notation": "standard",
       "originalId": "description",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -164,7 +238,7 @@
       "alias": "latitude",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"latitude\"])) : latitude })()}}",
       "currencyCode": "USD",
@@ -187,7 +261,7 @@
       "notation": "standard",
       "originalId": "latitude",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -198,7 +272,7 @@
       "alias": "longitude",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"longitude\"])) : longitude })()}}",
       "currencyCode": "USD",
@@ -221,7 +295,7 @@
       "notation": "standard",
       "originalId": "longitude",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -232,6 +306,7 @@
       "alias": "offline",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"offline\"])) : offline })()}}",
       "currencyCode": "USD",
@@ -253,6 +328,7 @@
       "notation": "standard",
       "originalId": "offline",
       "sticky": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -263,6 +339,7 @@
       "alias": "online",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"online\"])) : online })()}}",
       "currencyCode": "USD",
@@ -284,6 +361,7 @@
       "notation": "standard",
       "originalId": "online",
       "sticky": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -294,7 +372,7 @@
       "alias": "project",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"project\"])) : project })()}}",
       "currencyCode": "USD",
@@ -317,7 +395,7 @@
       "notation": "standard",
       "originalId": "project",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -328,6 +406,7 @@
       "alias": "site_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"site_id\"])) : site_id })()}}",
       "currencyCode": "USD",
@@ -349,6 +428,7 @@
       "notation": "standard",
       "originalId": "site_id",
       "sticky": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -359,7 +439,7 @@
       "alias": "site_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"site_name\"])) : site_name })()}}",
       "currencyCode": "USD",
@@ -382,7 +462,7 @@
       "notation": "standard",
       "originalId": "site_name",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -393,6 +473,7 @@
       "alias": "station_count",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{Colours.colours.surface}}",
       "columnType": "number",
       "computedValue": "{{(() => { const tableData = SiteTable.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"station_count\"])) : station_count })()}}",
       "currencyCode": "USD",
@@ -414,6 +495,7 @@
       "notation": "standard",
       "originalId": "station_count",
       "sticky": "",
+      "textColor": "{{Colours.colours.text}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -426,6 +508,7 @@
   "rightColumn": 37,
   "searchKey": "",
   "tableData": "{{GetSiteSummary.getSiteSummary.data}}",
+  "textColor": "{{Colours.colours.text}}",
   "textSize": "0.875rem",
   "topRow": 0,
   "totalRecordsCount": 0,

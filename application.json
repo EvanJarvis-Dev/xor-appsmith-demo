@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#EAEDFB",
@@ -9,5 +12,8 @@
       "id": "Page1",
       "isDefault": true
     }
-  ]
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
 }
