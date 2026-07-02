@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{\ncurrentItem.severity === \"critical\"\n    ? \"#F44336\"\n    : currentItem.severity === \"warning\"\n    ? \"#FF9800\"\n    : \"#2196F3\"\n}}",
+  "backgroundColor": "{{\ncurrentItem.severity === \"critical\"\n    ? Colours.colours.offline\n    : currentItem.severity === \"warning\"\n    ? Colours.colours.warning\n    : Colours.colours.success\n}}",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",

@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "{{\nStationTable.selectedRow.status?.online_status === \"online\"\n    ? Colours.colours.success\n    : StationTable.selectedRow.status?.online_status === \"offline\"\n    ? Colours.colours.offline\n    : StationTable.selectedRow.status?.online_status === \"buffering\"\n    ? Colours.colours.warning\n    : Colours.colours.muted\n}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "power",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wms1ia8ibk",
+  "leftColumn": 0,
+  "minWidth": 50,
+  "mobileBottomRow": 114,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 110,
+  "needsErrorInfo": false,
+  "originalBottomRow": 114,
+  "originalTopRow": 110,
+  "parentColumnSpace": 20.25,
+  "parentId": "ia74frwmbh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 7,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5ky6l0a944",
+  "widgetName": "IconButton2"
+}

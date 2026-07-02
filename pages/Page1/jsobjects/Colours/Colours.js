@@ -1,19 +1,20 @@
 export default {
-  colours: {
-    // Backgrounds
-    background: "#FDFDFE",
-    surface: "#E9ECF3",
+	colours: {
+		// Backgrounds
+		background: "#FDFDFE",
+		surface: "#E9ECF3",
 
-    // UI
-    border: "#DAD1D2",
-    muted: "#A2B1BA",
+		// UI
+		border: "#DAD1D2",
+		muted: "#A2B1BA",
 
-    // Accent colours
-    success: "#4BC58F",
-    warning: "#F78555",
+		// Accent colours
+		success: "#4BC58F",
+		warning: "#F78555",
+		offline: "#DC2626",
 
-    // Text
-    text: "#2F3A40",
-    textSecondary: "#A2B1BA"
-  }
+		// Text
+		text: "#2F3A40",
+		textSecondary: "#A2B1BA"
+	}
 }

@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "colours",
-        "value": "{\n  background: \"#FDFDFE\",\n  surface: \"#E9ECF3\",\n  border: \"#DAD1D2\",\n  muted: \"#A2B1BA\",\n  success: \"#4BC58F\",\n  warning: \"#F78555\",\n  text: \"#2F3A40\",\n  textSecondary: \"#A2B1BA\"\n}"
+        "value": "{\n  background: \"#FDFDFE\",\n  surface: \"#E9ECF3\",\n  border: \"#DAD1D2\",\n  muted: \"#A2B1BA\",\n  success: \"#4BC58F\",\n  warning: \"#F78555\",\n  offline: \"#DC2626\",\n  text: \"#2F3A40\",\n  textSecondary: \"#A2B1BA\"\n}"
       }
     ]
   }
